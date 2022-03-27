@@ -1,0 +1,151 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+}
+.nav-bg-color{
+    background: yellow!important;
+}
+a{
+    text-decoration: none;
+}
+
+.nav-link{
+    margin-right:10px;
+}
+
+.login-nav-link{
+    background-color: white;
+    border-radius: 50%;
+    font-size: 0.9em;
+}
+
+.get-the-app-nav-link{
+    background-color: black;
+    color: white!important;
+    border-radius: 80px;
+    font-size: .9em;
+}
+
+#showcase{
+    background-color:yellow;
+}
+.showcase-headerl-div{
+    width: 46%;
+}
+
+
+@media (max-width: 994px){
+    .showcase-headerl-div{
+        width: 100%;
+    }
+    .showcase-img{
+        margin-right: 40px;
+    }
+}
+.showcase-headerl-div h1{
+    font-size: 2.9em;
+    font-weight: bolder;
+}
+
+.showcase-img{
+    margin-right: 80px;
+    
+}
+
+
+.item-flex{
+    border: 1px solid white;
+}
+
+#showcase form{
+    box-shadow: 3px 8px 15px 1px rgba(19, 18, 18, 0.2);
+}
+
+.first-name-field, .last-name-field{
+    border-radius: 30px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.email-field{
+    border-radius: 20px 0 0 20px;
+    right: -10px;
+    border: 1px solid black;
+}
+
+.btn-waitlist{
+    border-radius: 20px!important;
+    padding: 8px 30px;
+    left: -10px;
+    background-color: black;
+    color: white;
+}
+
+
+.minor-nav{
+    overflow: hidden;
+    padding:  10px 0;
+    border-radius: 15px 15px 0 0;
+}
+
+.minor-nav-list{
+    list-style-type: none;
+    display: inline-block;
+    left: 10%;
+    position: absolute;
+    transform: translateX(-1%);
+}
+
+.minor-nav-item, .minor-nav-item h4{
+    display: inline-block;
+    
+}
+
+.minor-nav span{
+    display: inline;
+    border: 1px solid black;
+
+}
+
+.minor-nav-link{
+    padding: 5px;
+    align-items: center;
+    color: black;
+    font-size: 0.8em;
+}
+
+
+#item-showcase{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.side-img{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: -145px;
+    bottom: 20px;
+    border-radius: 100%  100% 0 100%;
+}
+
+.card-title, .card-text{
+    font-size: 0.7rem!important;
+}
+
+
+.card-img{
+    
+}
+
+.tag{
+    position:absolute;
+    z-index: 1;
+    background-color: black;
+    border-radius: 20px;
+    color: yellow;
+    bottom: 50px;
+    width: auto;
+}
